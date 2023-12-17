@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/atmintis_v3
+    username: ad
+    password: 00sql...AD31
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        format_sql: true
+
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 79d29a6f101376959b9e
+            client-secret: 0c074eae374e5f19d2b2471973eb4b5ff4d914f4
+          google:
+            client-id: 158870967020-38u9brk744i7v5dko25u814tk9muvaph.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
+  sql:
+    init:
+      mode: never
+logging:
+  level:
+    org:
+      hibernate:
+#        SQL: DEBUG
+
+      springframework:
+        security: DEBUG
+
