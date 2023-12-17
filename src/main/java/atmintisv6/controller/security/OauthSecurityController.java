@@ -1,5 +1,6 @@
 package atmintisv6.controller.security;
 
+import atmintisv6.service.ContactService;
 import atmintisv6.service.api.google.GglPeopleApiImplSTATIC;
 import atmintisv6.service.api.google.LoadGglToSQL;
 import com.google.api.services.people.v1.model.Person;
@@ -18,6 +19,7 @@ import java.util.List;
 public class OauthSecurityController {
 
     private final LoadGglToSQL loadGglToSQL;
+    private ContactService contactService;
 
     /**
      * Constructor for OauthSecurityController.
