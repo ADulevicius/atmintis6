@@ -3,11 +3,11 @@
  */
 package atmintisv6.service;
 
-import atmintisv4.dto.Company;
-import atmintisv4.dto.Contact;
-import atmintisv4.dto.Name;
-import atmintisv4.dto.PhoneNumber;
-import atmintisv4.dto.react.UpdateFromReact;
+import atmintisv6.dto.Company;
+import atmintisv6.dto.Contact;
+import atmintisv6.dto.Name;
+import atmintisv6.dto.PhoneNumber;
+import atmintisv6.dto.react.UpdateFromReact;
 
 import java.util.List;
 

@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.CustomField;
-import atmintisv4.repository.CustomFieldRepository;
-import atmintisv4.service.CustomFieldService;
+import atmintisv6.dto.CustomField;
+import atmintisv6.repository.CustomFieldRepository;
+import atmintisv6.service.CustomFieldService;
 import org.springframework.stereotype.Service;
 
 @Service

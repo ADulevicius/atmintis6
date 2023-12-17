@@ -1,6 +1,6 @@
 package atmintisv6.repository;
 
-import atmintisv4.dto.Name;
+import atmintisv6.dto.Name;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

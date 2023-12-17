@@ -3,8 +3,8 @@
  */
 package atmintisv6.service;
 
-import atmintisv4.dto.Contact;
-import atmintisv4.dto.react.UpdateFromReact;
+import atmintisv6.dto.Contact;
+import atmintisv6.dto.react.UpdateFromReact;
 
 public interface ContactAdditionService {
 

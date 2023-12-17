@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.RelatedPerson;
-import atmintisv4.repository.RelatedPersonRepository;
-import atmintisv4.service.RelatedPersonService;
+import atmintisv6.dto.RelatedPerson;
+import atmintisv6.repository.RelatedPersonRepository;
+import atmintisv6.service.RelatedPersonService;
 import org.springframework.stereotype.Service;
 
 @Service
