@@ -1,7 +1,7 @@
 package atmintisv6.controller.security;
 
-import atmintisv4.service.api.google.GglPeopleApiImplSTATIC;
-import atmintisv4.service.api.google.LoadGglToSQL;
+import atmintisv6.service.api.google.GglPeopleApiImplSTATIC;
+import atmintisv6.service.api.google.LoadGglToSQL;
 import com.google.api.services.people.v1.model.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

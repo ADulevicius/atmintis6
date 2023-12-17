@@ -1,6 +1,6 @@
 package atmintisv6.repository;
 
-import atmintisv4.dto.RelatedPerson;
+import atmintisv6.dto.RelatedPerson;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

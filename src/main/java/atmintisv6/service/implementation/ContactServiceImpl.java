@@ -4,10 +4,10 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.*;
-import atmintisv4.dto.react.UpdateFromReact;
-import atmintisv4.repository.*;
-import atmintisv4.service.ContactService;
+import atmintisv6.dto.*;
+import atmintisv6.dto.react.UpdateFromReact;
+import atmintisv6.repository.*;
+import atmintisv6.service.ContactService;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

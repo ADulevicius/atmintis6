@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.Address;
-import atmintisv4.repository.AddressRepository;
-import atmintisv4.service.AddressService;
+import atmintisv6.dto.Address;
+import atmintisv6.repository.AddressRepository;
+import atmintisv6.service.AddressService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

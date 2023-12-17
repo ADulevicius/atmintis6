@@ -1,8 +1,8 @@
 package atmintisv6.repository;
 
-import atmintisv4.dto.Company;
-import atmintisv4.dto.Contact;
-import atmintisv4.dto.PhoneNumber;
+import atmintisv6.dto.Company;
+import atmintisv6.dto.Contact;
+import atmintisv6.dto.PhoneNumber;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

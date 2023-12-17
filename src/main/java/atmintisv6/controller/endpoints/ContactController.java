@@ -1,9 +1,9 @@
 package atmintisv6.controller.endpoints;
 
-import atmintisv4.dto.Contact;
-import atmintisv4.dto.react.UpdateFromReact;
-import atmintisv4.service.ContactAdditionService;
-import atmintisv4.service.ContactService;
+import atmintisv6.dto.Contact;
+import atmintisv6.dto.react.UpdateFromReact;
+import atmintisv6.service.ContactAdditionService;
+import atmintisv6.service.ContactService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

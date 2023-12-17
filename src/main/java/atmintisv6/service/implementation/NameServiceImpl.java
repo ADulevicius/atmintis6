@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.Name;
-import atmintisv4.repository.NameRepository;
-import atmintisv4.service.NameService;
+import atmintisv6.dto.Name;
+import atmintisv6.repository.NameRepository;
+import atmintisv6.service.NameService;
 import org.springframework.stereotype.Service;
 
 @Service

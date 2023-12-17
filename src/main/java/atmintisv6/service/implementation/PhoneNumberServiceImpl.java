@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.PhoneNumber;
-import atmintisv4.repository.PhoneNumberRepository;
-import atmintisv4.service.PhoneNumberService;
+import atmintisv6.dto.PhoneNumber;
+import atmintisv6.repository.PhoneNumberRepository;
+import atmintisv6.service.PhoneNumberService;
 import org.springframework.stereotype.Service;
 
 @Service

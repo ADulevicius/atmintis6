@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.Email;
-import atmintisv4.repository.EmailRepository;
-import atmintisv4.service.EmailService;
+import atmintisv6.dto.Email;
+import atmintisv6.repository.EmailRepository;
+import atmintisv6.service.EmailService;
 import org.springframework.stereotype.Service;
 
 @Service

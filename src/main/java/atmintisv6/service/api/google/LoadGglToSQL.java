@@ -1,10 +1,10 @@
 package atmintisv6.service.api.google;
 
-import atmintisv4.dto.*;
-import atmintisv4.dto.Address;
-import atmintisv4.dto.Name;
-import atmintisv4.dto.PhoneNumber;
-import atmintisv4.service.implementation.*;
+import atmintisv6.dto.*;
+import atmintisv6.dto.Address;
+import atmintisv6.dto.Name;
+import atmintisv6.dto.PhoneNumber;
+import atmintisv6.service.implementation.*;
 import com.google.api.services.people.v1.model.*;
 import org.springframework.stereotype.Service;
 

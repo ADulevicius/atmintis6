@@ -4,9 +4,9 @@
  */
 package atmintisv6.service.implementation;
 
-import atmintisv4.dto.SignificantDate;
-import atmintisv4.repository.SignificantDateRepository;
-import atmintisv4.service.SignificantDateService;
+import atmintisv6.dto.SignificantDate;
+import atmintisv6.repository.SignificantDateRepository;
+import atmintisv6.service.SignificantDateService;
 import org.springframework.stereotype.Service;
 
 @Service
