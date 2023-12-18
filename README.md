@@ -26,4 +26,5 @@ Produktas nėra baigtas ir nėra tinkams(skirtas) viešam naudojimui ar platinim
 	Visi pakeitimai yra atliekami tiktai SQL serveryje esantiems duomenims.
 		
 (c) Andrius Dulevičius
+
     Dalintis be Andriaus Duleviciaus raštiško sutikimo yra draudžiama.
