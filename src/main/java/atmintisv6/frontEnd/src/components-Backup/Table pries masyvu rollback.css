@@ -1,0 +1,51 @@
+
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #e10d05;
+  }
+
+  .pagination {
+    list-style: none;
+    height: 31.5px;
+
+    gap: 0.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-left: auto; /* Auto margin on the left and right will center the element */
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.table-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; /* Change to column */
+  align-items: center; /* Optionally center the content horizontally */
+}
+
+.table tbody{
+  text-align: center;
+}
+
+/* Add hover effect for table rows */
+.table-hover tbody tr:hover {
+  background-color: #e71a1a; /* Change the background color on hover */
+  /* justify-content: center;
+  align-items: center; */
+  width: 100%;
+}
+
+
+/* Custom CSS to change the background color of the thead */
+.table-thead {
+    background-color: #ff0000 !important; /* Change this to your desired background color */
+    color: #fff; /* Change this to the desired text color */
+    text-align: center;
+}

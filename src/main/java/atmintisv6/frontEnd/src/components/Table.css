@@ -1,0 +1,73 @@
+
+.actions svg {
+  cursor: pointer;
+}
+
+.delete-btn {
+  color: #e10d05;
+}
+
+.edit-btn{
+  color: black;
+}
+
+.pagination {
+  list-style: none;
+  height: 31.5px;
+  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  color: rgb(92, 91, 91);
+}
+
+.table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-thead {
+  background-color: rgb(60, 60, 60) !important;
+  color: rgb(190, 190, 190);
+  text-align: center;
+  font-size: large;
+}
+
+.table th,
+.table-hover td {
+  border-bottom: 1px solid #020202;
+  padding: 1px;
+  text-align: center;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #888888;
+  font-weight:900;
+  font-size-adjust:calc(+2);
+  text-transform: uppercase;
+  width: 100%;
+  }
+
+.table-wrapper{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-direction: column; 
+align-items: center;
+}
+
+.table tbody{
+text-align: center;
+border-bottom: 1px solid #7c2424;
+}
+
+.table-hover {
+  width: 100%;
+  background-color: rgb(80, 80, 80);
+  color: rgb(180, 180, 180);
+} 

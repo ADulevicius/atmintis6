@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.modal-container {
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4); 
+
+  }
+  
+  .modal {
+    background-color: white;
+    color: black;
+    z-index: 10001;
+    position: relative;
+    display: block;
+    visibility: visible;
+    overflow: auto;
+    border: 1px solid black; /* Add a border */
+  }
+
+ /*  .modal {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: lightcoral; 
+    width: 25rem;
+    color: black;
+      Add a border or box-shadow for visibility
+    border: 1px solid black;
+  } */
+
+
+  
+  .btn {
+    display: block;
+    margin: auto;
+    visibility: visible;
+  }

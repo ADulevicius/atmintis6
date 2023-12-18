@@ -1,0 +1,55 @@
+.modal-container {
+    position: fixed;
+    z-index: 10000; /* buvo 1 */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: black;
+}
+
+.modal {
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    width: 25rem;
+    color: black;
+}
+
+.modal-pId{
+    color: black;
+}
+
+.modal-name{
+    color: black;
+}
+
+.modal-phoneNumber{
+    color: black;
+}
+
+.modal-occupation{
+    color: black;
+}
+
+.modal-status{
+    color: black;
+}
+
+.modal.btn {
+    display: block;
+    margin: auto;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #df4759;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
