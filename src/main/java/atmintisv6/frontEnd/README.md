@@ -7,6 +7,7 @@ Programos veikimo principas:
 2. Paimami duomenys iš google contacts
 3. Užpildoma vietinė SQL duomenų bazė duomenimis paimtais iš google contacts
 4. Duomenys atvaizduojami ir manipuliuojami reactjs ir naršyklės pagalba 
+
 Naudojimosi instrukcijos:
 
 1.  https://console.cloud.google.com/ tinklapyje prisijungti ir sukurti tokeną su teisėmis naudotis google PEOPLE API. 
